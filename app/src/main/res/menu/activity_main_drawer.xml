@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_zadanie1"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie1" />
+        <item
+            android:id="@+id/nav_zadanie2"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie2" />
+        <item
+            android:id="@+id/nav_zadanie3"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie3" />
+        <item
+            android:id="@+id/nav_zadanie4"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie4" />
+        <item
+            android:id="@+id/nav_zadanie5"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie5" />
+        <item
+            android:id="@+id/nav_zadanie6"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie6" />
+        <item
+            android:id="@+id/nav_zadanie7"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie7" />
+        <item
+            android:id="@+id/nav_zadanie8"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie8" />
+        <item
+            android:id="@+id/nav_zadanie9"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie9" />
+        <item
+            android:id="@+id/nav_zadanie10"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie10" />
+        <item
+            android:id="@+id/nav_zadanie11"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie11" />
+        <item
+            android:id="@+id/nav_zadanie12"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie12" />
+        <item
+            android:id="@+id/nav_zadanie13"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_zadanie13" />
+
+    </group>
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sidebar.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.sidebar.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.sidebar.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_zadanie1"
+        android:name="com.example.sidebar.ui.zadanie1.Zadanie1Fragment"
+        android:label="@string/menu_zadanie1"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie2"
+        android:name="com.example.sidebar.ui.zadanie2.Zadanie2Fragment"
+        android:label="@string/menu_zadanie2"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie3"
+        android:name="com.example.sidebar.ui.zadanie3.Zadanie3Fragment"
+        android:label="@string/menu_zadanie3"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie4"
+        android:name="com.example.sidebar.ui.zadanie4.Zadanie4Fragment"
+        android:label="@string/menu_zadanie4"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie5"
+        android:name="com.example.sidebar.ui.zadanie5.Zadanie5Fragment"
+        android:label="@string/menu_zadanie5"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie6"
+        android:name="com.example.sidebar.ui.zadanie6.Zadanie6Fragment"
+        android:label="@string/menu_zadanie6"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie7"
+        android:name="com.example.sidebar.ui.zadanie7.Zadanie7Fragment"
+        android:label="@string/menu_zadanie7"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie8"
+        android:name="com.example.sidebar.ui.zadanie8.Zadanie8Fragment"
+        android:label="@string/menu_zadanie3"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie9"
+        android:name="com.example.sidebar.ui.zadanie9.Zadanie9Fragment"
+        android:label="@string/menu_zadanie9"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie10"
+        android:name="com.example.sidebar.ui.zadanie10.Zadanie10Fragment"
+        android:label="@string/menu_zadanie10"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie11"
+        android:name="com.example.sidebar.ui.zadanie11.Zadanie11Fragment"
+        android:label="@string/menu_zadanie10"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie12"
+        android:name="com.example.sidebar.ui.zadanie12.Zadanie12Fragment"
+        android:label="@string/menu_zadanie12"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_zadanie13"
+        android:name="com.example.sidebar.ui.zadanie13.Zadanie13Fragment"
+        android:label="@string/menu_zadanie13"
+        tools:layout="@layout/fragment_home" />
+</navigation>
